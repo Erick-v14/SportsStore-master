@@ -202,6 +202,7 @@
     </Compile>
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="HtmlHelpers.cs\PagingHelpers.cs" />
+    <Compile Include="infastructure binder\CartModelBinder.cs" />
     <Compile Include="Models\CartIndexViewModel.cs" />
     <Compile Include="Models\PagingInfo.cs" />
     <Compile Include="Models\ProductsListViewModel.cs" />
@@ -225,6 +226,8 @@
     <Content Include="Views\Shared\ProductSummary.cshtml" />
     <Content Include="Views\Nav\Menu.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\summary.cshtml" />
+    <Content Include="Views\Checkout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
